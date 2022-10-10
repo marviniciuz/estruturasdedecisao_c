@@ -20,7 +20,7 @@
 
 ## if Simples
 
-~~~~
+```c
 #include <stdio.h>
 
 int main()
@@ -33,9 +33,9 @@ int main()
     }
     return 0;
 }
-~~~~
+```
 ### if Aninhado
-~~~~
+```c
 #include <stdio.h>
 
 int main()
@@ -56,10 +56,10 @@ int main()
 
     return 0;
 }
-~~~~
+```
 
 ### ifelse
-~~~~
+```c
 #include <stdio.h>
 
 
@@ -79,9 +79,9 @@ int main()
 
     return 0;
 } 
-~~~~
+```
 ### if...elseif...else 
-~~~~
+```c
 #include <stdio.h>
 
 int main()
@@ -107,7 +107,7 @@ int main()
 
     return 0;
 }
-~~~~
+```
 ### Exemplo de (!=)
 
 ### vale lembrar que
