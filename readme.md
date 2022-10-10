@@ -108,3 +108,20 @@ int main()
     return 0;
 }
 ~~~~
+### Exemplo de (!=)
+
+### vale lembrar que
+
+* positivo -> 1
+* negativo -> 0
+
+~~~
+int num;
+printf("%i",num != num);
+~~~
+
+### Exemplo de (==)
+~~~
+int num;
+printf("%i",num == num);
+~~~
