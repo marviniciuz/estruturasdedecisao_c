@@ -22,7 +22,7 @@ float main()
 
     if(media >= 7){
         printf("aluno aprovado");
-    }
+    }   
     else{
         printf("aluno reprovado");
     }
