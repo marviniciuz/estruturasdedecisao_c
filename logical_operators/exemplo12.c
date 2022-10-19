@@ -7,10 +7,12 @@ int main (void)
    printf("Informe o valor da temperatura: ");
    scanf("%f", &temperatura); 
 
-   if (temperatura > max || temperatura < min) 
+   if (temperatura > max || temperatura < min){
       printf("Alerta: Temperatura fora da faixa permitida!!!\n"); 
-   else 
-      printf("Temperatura OK \n"); 
-
+   }   
+   else{
+      printf("Temperatura OK \n");
+   }
+   
    return (0);
 }
