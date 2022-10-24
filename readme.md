@@ -6,7 +6,6 @@
 * ifelse aninhados 
 
 ### Operadores Logicos 
-[operadores](#operadores.md)
 
 * Não (!=)
 * E (&&)
