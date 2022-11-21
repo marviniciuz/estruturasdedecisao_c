@@ -1,4 +1,4 @@
-#  Estudos basicos de Logica de Progração
+#  Estudos basicos de Logica de Programação
 
 ### Instruções if e else e ifelse
 * if simples
@@ -18,6 +18,16 @@
 * Maior ou igual a (>=)
 * Menor que (<)
 * Menor ou igual a (<=)
+
+### laços de repetição:
+
+* While 
+* Do While 
+* For
+
+### laços de repetição:
+* switch
+* case 
 
 ## if Simples
 
