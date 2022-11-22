@@ -65,9 +65,15 @@ int main(void)
 1 2 3 4 5 6 7 8 9 10 
 ```
 
-No caso acima o contador inciou com o valor 1, "int contador = 1;" sendo assim nos colocamos a condição de quando o "contador <= 10" 
+No caso acima o contador inciou com o valor 1, "int contador = 1;" (sempre incializar a variavel antes de tudo) sendo assim nos colocamos a condição de quando o "contador <= 10" 
 continua contadndo "contador++" contador mais + mais +, ou seja o contador ja incia com o "valor de 1" e vai ate onde a "condição for menor ou igual a 10" 
-ele para no 10 por que a condição e "menor ou igual a 10" 
+ele para no 10 por que a condição e "menor ou igual a 10"
+
+O contador ++ ou contador = (contador +1) funciona de seguinte forma ele imprime o valor de contador +1 ou seja ele adiciona o valor a variavel para que ela consiga prosseguir.
+
+O contador ++ ou contador = (contador +1) e essencial por que se o programa eu coloquei uma condição(contador <= 10) e o valor dele nunca muda enquanto essa condição não for satisfeita que e a condição: enquanto(contador <= 10), para isso e adicionado o contador ++ ou contador = (contador +1)
+
+Caso contrario, o codigo sera infinito o loop sem fim, por que a condição nunca sera satisfeita.
 
 E se no caso do codigo acima não for adiciondo o contador ++?
 
