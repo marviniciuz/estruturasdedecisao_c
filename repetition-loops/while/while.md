@@ -1,6 +1,10 @@
 # LAÇO DE REPETIÇÃO WHILE
 
+Os Laços condicionais são aqueles em que o conjunto de comandos em seu interior é executado enquanto uma determinada condição seja satisfeita, ele serve para que um bloco de instrução seja repedita enquanto a condição for verdadeira. 
+
 O comando while permite que um certo trecho de programa seja executado ENQUANTO uma certa condição for verdadeira. A forma do comando while é a seguinte: 
+
+### while = enquanto
 
 ```c
 
@@ -63,4 +67,186 @@ int main(void)
 
 No caso acima o contador inciou com o valor 1, "int contador = 1;" sendo assim nos colocamos a condição de quando o "contador <= 10" 
 continua contadndo "contador++" contador mais + mais +, ou seja o contador ja incia com o "valor de 1" e vai ate onde a "condição for menor ou igual a 10" 
-ele para no 10 por que a condição e "menor ou igual a 10"  
+ele para no 10 por que a condição e "menor ou igual a 10" 
+
+E se no caso do codigo acima não for adiciondo o contador ++?
+
+De certa forma o codigo não funcionara, pelo fato de que contador entrara em loop, por que a variavel sempre sera verdadeira, e pra que ela deixe de ser verdadeira deve-se adicionar o "contador ++" ou  "contador = (contador + 1);"
+
+```C
+#include <stdio.h>
+
+
+int main(void)
+{
+  int contador = 1; 
+
+  while (contador <= 10) 
+  {
+    printf("%d\n", contador); 
+    contador = (contador + 1);
+
+  }  
+  
+  return 0;
+}
+```
+### resultado:
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+O uso do "contador = (contador + 1);" tem o mesmo proposito do "contador ++"
+
+Deve sempre se atentar para o valor atribuido na variavel, por exemplo se o valor a variavel contador fosse 0, por exemplo: "contador = 0;" ele iria contar de 0 a 10, sendo 11 numeros,isso pelo fato da variavel iniciar com o valor 0 (int contador = 1;).
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+  int contador = 0; 
+
+  while (contador <= 10) 
+  {
+    printf("%d\n", contador); 
+    contador = (contador + 1);
+
+  }  
+  
+  return 0;
+}
+```
+
+### resultado:
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+Outra forma de condição:
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+  int contador = 0; 
+
+  while (contador < 10) 
+  {
+    printf("%d\n", contador); 
+    contador = (contador + 1);
+
+  }  
+  
+  return 0;
+}
+```
+
+### resultado:
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+O valor da variavel e igual a zero,sendo assim o variavel ira contar ate o ultimo numero menos a zero, que nesse caso e o nove, quando chegar no nove ele para, por que a condiçõa proposta e: equanto contador for menor que 10 continua contando a partir do momento que chegar no nove que e o ultimo numero menor que dez ele para.
+
+
+Outra forma de condição:
+
+E enquanto o contador for diferente de dez, continua contando, nesse caso ele segue o mesmo rumo que o anterior ele chega ate nove e para, por que o proximo numero seria 10, mas a condiçõa e enquanto o contador for diferente de dez,continua contando, chegou no nove para, por que o seguinte o 10.
+
+```c
+#include <stdio.h>
+
+
+int main(void)
+{
+  int contador = 0; 
+
+  while (contador != 10) 
+  {
+    printf("%d\n", contador); 
+    
+    contador++;
+  }  
+  
+  return 0;
+}
+```
+### resultado:
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+Outra forma de condição:
+
+Essa forma utiliza do mesmo principio da anterior, so que criamos uma variavel com o nome "pare" que recebe o valor "10" sendo assim  "int pare = 10;" e foi feita a condição de enquanto o contador for diferente de pare, continua contando.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+  int contador = 0; 
+  int pare = 10;
+
+  while (contador != pare) 
+  {
+    printf("%d\n", contador); 
+    
+    contador++;
+  }  
+  
+  return 0;
+}
+```
+### resultado:
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+``
