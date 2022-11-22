@@ -42,9 +42,9 @@ Sintaxe:
 
 ### Codigo em Linguagem C:
 
+```c
 #include <stdio.h>
 
-```C
 int main(void)
 {
   int contador = 1; //declarando e inicializando a variável de controle
