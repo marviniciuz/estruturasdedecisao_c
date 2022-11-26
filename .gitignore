@@ -1,3 +1,4 @@
 *.exe
 /testeslangc
 /notas
+/.vscode
