@@ -22,7 +22,7 @@ int main(){
     }
     else{
         printf("O numero %d digitado e impar\n,",number2);
-    } 
+    }   
     if (number1>number2){
         printf("O numero %d e maior que o numero %d\n", number1,number2);
     }
