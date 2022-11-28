@@ -160,3 +160,51 @@ Dividindo por 2 temos num = 14
 ```
 
 * O valor de num inciou por 10, foi somado com 5, e foi para 15, demois foi subtraido com 1, foi para 14, depois foi multiplicado por 2, foi para 28, depois dividido por 2, e foi para 14, fim.
+
+## Resto da divisão em C:
+
+```c
+#include <stdio.h>
+
+int main(void){
+
+    int num1 = 10; 
+    int num2 = 3; 
+
+    int mod2 = num1 % num2; 
+
+    printf("O resto da divisao %d %% %d = %d\n", num1, num2, mod2);
+
+}
+```
+
+### resultado:
+```
+O resto da divisao 10 % 3 = 1
+```
+* O sinal de mod = ```%``` representa o resto de divisão.
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    printf( "%i\n", 3 % 2 );
+    printf( "%i\n", 4 % 2 );
+    printf( "%i\n", 5 % 2 );
+    printf( "%i\n", 6 % 2 );
+    printf( "%i\n", 11 % 3 );
+
+    return 0;
+
+}
+
+```
+### resultado:
+```
+1
+0
+1
+0
+2
+```
