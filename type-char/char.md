@@ -31,3 +31,5 @@ No codigo acima foi se criado uma varive com nome ```letra``` onde recebe o cara
 ```
 m
 ```
+
+O que sinaliza um caractere, neste caso são as aspas simples ``` 'm' ```
