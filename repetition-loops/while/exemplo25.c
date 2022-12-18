@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 void main(){
-    int i=2,j=1,number=0;
+    int i=2,j=1,number=0;   
 
     printf("Digite um numero inteiro\n");
     scanf("%d",&number);
