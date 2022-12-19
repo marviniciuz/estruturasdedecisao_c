@@ -1,5 +1,6 @@
 
-![string](img/langc.png)
+<img src="img/langc.png" height = "300" width = "310">
+
 
 # Repositorio de Estudos basicos de Logica de Programação em C
 
