@@ -1,6 +1,5 @@
 
-
-
+![string](img/langc.png)
 
 # Repositorio de Estudos basicos de Logica de Programação em C
 
@@ -9,5 +8,7 @@ quem queira aprender ou rever alguns conceitos de logica de programação e de l
 
 Os conteudos ja estudados vem do basico ao avançado, visando exercitar e fixar alguns conceitos importantes para a pratica de desenvolvimento
 de sistemas.
+
+
 
 
