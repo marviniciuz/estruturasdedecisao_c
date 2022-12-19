@@ -1,7 +1,5 @@
-<p>
-<center>
-<img src="img/langc.png" height = "300" width = "310">
-</center>
+<p align="center" width="100%">
+<img src="img/langc.png" height = "33%" width = "40%">
 </p>
 
 # Repositorio de Estudos basicos de Logica de Programação em C
