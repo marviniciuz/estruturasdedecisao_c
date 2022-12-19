@@ -237,3 +237,55 @@ u
 n
 ```
 Sim, o u esta na posição 2, lembrando sempre que se inicia no 0, e neste caso o u esta na posição [2], e nesta outra forma foi acessado a letra que esta na posição [8], mas antes foi criada uma variavel do tipo char, que logo recebeu a posição [8], ```letra = str[8];```, sendo n esta na posição 8.
+
+
+### Como acessar um elemento do String sem criar uma varivel?
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    char str[] = "meu string";
+	
+	printf("%c\n",str[2]); 
+	printf("%c\n",str[8]); 
+
+}
+```
+### resultado:
+
+```
+u
+n
+```
+Para acessar o valor de uma string e necessario informar sua posição sempre ciente que a string se inicia a partir do 0 em diante terminando em /0 
+de certo que a posição e representada pelo nome da variavel ```str``` e seguindo da posição ```[10]```
+
+### E para mudar um valor ou elemento dentro da string?
+
+```c
+#include <stdio.h>
+
+int main() {
+	char str[] = "meu string";   /*reserva espaço para 11 caracteres*/
+
+	/* mudo o 6o caracter */
+	str[5] = 'd';
+
+	printf("%s",str);
+}
+```
+* criamos a variavel do tipo char, que neste caso não contem um valor especifico que so vai ser aplicado depois que for passado a string ```char str[] = "meu string";``` essa string armazena um valor de onze caracteres.
+
+* Logo apos a declaração foi se aplicado uma troca informando a varivel ```str``` com posição ```[5]``` e o valor que ira substituir o elemento do string que esta na posição.
+
+* Sendo assim a letra ```d``` sera trocada pela letra que esta na posição 5 da string que no caso e ```t```
+
+### resultado:
+
+```
+meu sdring
+```
+
+[               ](        )
