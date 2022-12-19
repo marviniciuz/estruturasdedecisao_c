@@ -14,6 +14,7 @@ Tudo que foi estudado sobre a lang sera adicionado a este repositorio ou sera cr
 
 C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela Organização Internacional para Padronização (ISO), criada em 1972 por Dennis Ritchie na empresa AT&T Bell Labs para desenvolvimento do sistema operacional Unix (originalmente escrito em Assembly). veja mais no artigo da Wikipedia da linguagem C [C (linguagem de programação)](https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o))
 
+[Material de Apoio](https://github.com/marviniciuz/studies-c/wiki#materiais-de-apoio-que-utilizei-no-decorrer-dos-estudos-em-c)
 
 ## Windows
 
