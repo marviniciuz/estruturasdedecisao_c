@@ -288,4 +288,18 @@ int main() {
 meu sdring
 ```
 
-[               ](        )
+Como ler strings do teclado utilizando o ```scanf```?
+
+```c
+#include <stdio.h>
+
+int main() {
+	char str[12]; /*reserva espaço para 12 caracteres*/
+
+	printf("Seu string: ");
+	scanf("%s",str);
+
+	printf("%s\n",str);
+}
+```
+Neste caso não foi necessario o uso do ```&``` na frente da variavel ```str```, isso acontece porquê não e uma variavel, lembra de vetores. 
