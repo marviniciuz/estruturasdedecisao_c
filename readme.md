@@ -53,6 +53,6 @@ gcc -help
 Apos a instalação do gcc no linux, basta rodar o comando de compilação do codigo, diferente do windows primeiro informamos o nome que sera atribuido ao arquivo apos a compilação sendo assim o nome do arquivo.c vem depois
 
 ```c
-gcc o ola hello.c
+gcc -o ola hello.c
 ```
 
