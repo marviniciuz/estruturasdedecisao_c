@@ -225,3 +225,49 @@ while (i<=10){
 ```
 * A variavel i tem o valor de =1, ```int i=1```.
 * A condição e enquanto i for menor ou igual a 10, continua imprimindo ```opcao invalida``` que neste caso sera impresso dez vezes, pelo fato da condição ser menor ou igal a dez ```(i<=10)```, quando o i chegar a 10 não imprimira mais a mensagem.
+
+Se for a opção 1:
+
+### resultado:
+
+```
+digite um numero
+1
+digite um numero
+10
+
+ 1. Soma
+ 2. Subtracao
+ 3. Multiplicacao
+ 4. Divisao
+ Digite o numero da opcao desejada: 1
+a soma e igual: 11
+```
+
+Se for a opção 5, que não existe;
+
+### resultado:
+
+```
+digite um numero
+1
+digite um numero
+10
+ 
+ 1. Soma  
+ 2. Subtracao      
+ 3. Multiplicacao  
+ 4. Divisao
+ Digite o numero da opcao desejada: 5
+
+opcao invalida
+opcao invalida
+opcao invalida
+opcao invalida
+opcao invalida
+opcao invalida
+opcao invalida
+opcao invalida
+opcao invalida
+opcao invalida
+```

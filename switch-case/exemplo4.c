@@ -9,18 +9,18 @@ int main(void)
     int i=1;
     
 
-    printf("digite um numero");
+    printf("digite um numero\n");
     scanf("%i",&num1);
 
-    printf("digite um numero");
+    printf("digite um numero\n");
     scanf("%i",&num2);
 
     printf(" \n 1. Soma ");
-    printf(" \n 2. Subtraçao ");
-    printf(" \n 3. Multiplicaçao ");
+    printf(" \n 2. Subtracao ");
+    printf(" \n 3. Multiplicacao ");
     printf(" \n 4. Divisao ");
 
-    printf(" \n Digite o número da opcao desejada: ");
+    printf(" \n Digite o numero da opcao desejada: ");
     scanf("%d", &op);
  
 
@@ -40,7 +40,7 @@ int main(void)
         break;
     case 4:
         result = num1 / num2;
-        printf("a soma e iguaç: %i",result);
+        printf("a soma e igual: %i",result);
         break; 
     default:
         while (i<=10){
