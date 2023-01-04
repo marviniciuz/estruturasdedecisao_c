@@ -255,4 +255,90 @@ int main(void)
 7
 8
 9
-``
+```
+# TIPOS DE DECLARAÇÃO DA VARIAVEL DE CONTROLE:
+```c
+int i=1;
+```
+
+### i++;
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i=1;
+
+    while (i<=5)
+    {
+       printf("\n%i",i);
+       i++;
+    } 
+}
+```
+
+### ++i;
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i=1;
+
+    while (i<=5)
+    {
+       printf("\n%i",i);
+       ++i;
+    } 
+}
+```
+
+### i=(i+1);
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i=1;
+
+    while (i<=5)
+    {
+       printf("\n%i",i);
+       i=(i+1);
+    }
+    
+}
+```
+
+### i=i+1;
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i=1;
+
+    while (i<=5)
+    {
+       printf("\n%i",i);
+       i=i+1;
+    }
+    
+}
+```
+
+### i+=1;
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i=1;
+
+    while (i<=5)
+    {
+       printf("\n%i",i);
+       i+=1;
+    }  
+}
+```
