@@ -157,3 +157,41 @@ digite 0 para sair do looping
 ```Como ja informado, mesmo ainda não digitado ele ja incia com o valor 1, ou sej ele conta no minimo uma vez, sendo falso ou verdadeiro```
 
 ```No resultado deste codigo, da pra ver que ele ja contou o 1.```
+
+Vemos se no while a variavel for declarada com o valor i=0, e a condição for enquanto i for diferente de 0, esse codigo não ira rodar.
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int = 0;
+
+    while(i != 0){
+        printf("teste");
+    }
+}
+``` 
+Este codigo não ira rodar,a variavel ``` i=0```  e a condição e ```i!=0``` , equanto ``` i```  for diferente de ```0```  excute isso:   ```printf("teste");```.
+
+``` c
+#include <stdio.h>
+
+int main()
+{
+    int i=0;
+
+    do
+    {   
+        printf("teste\n");
+    } while (i != 0);   
+}
+``` 
+### resultado:
+
+```
+teste
+
+```
+
+* Neste segundo exemplo que o do-while, ele ```excuta e verifica```, ja no while ele ```verifica e depois executa```.
