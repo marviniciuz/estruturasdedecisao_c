@@ -116,3 +116,47 @@ int main()
 3) Depois veio o i-- que diminui o valor de ```i```, da mesma forma que o ```i++``` adiciona +1 no ```i```;
 4) Depois o valor de ```i``` diminuito -1, ```i=10```, -1 ate chegar na condição correta;
 5) Quando ```i``` chegar a 1, o ```for``` para, a condição e enquanto i for maio ou igual a 1;
+
+```c
+#include <stdio.h>
+
+int main()
+{
+int a;
+int b;
+
+for (a = 0,b=10; a <= 10;++a,--b){
+printf("%i", a);
+printf("-");
+printf("%i\n", b);
+}
+return 0;
+
+}
+```
+
+Neste exemplo a foi aumentando comforme o for, e b foi dimimuindo, isso devido as variaveis de controle estarem especificando: ```++a``` e ```--b```.
+
+### Resultado:
+```
+0-10
+1-9
+2-8
+3-7
+4-6
+5-5
+6-4
+7-3
+8-2
+9-1
+10-0
+```
+#### 1 coluna : 0 - 10 representa o:
+```
+++a
+```
+
+#### 1 coluna : 10 - 0 representa o: 
+```
+--b
+```
